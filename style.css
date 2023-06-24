@@ -1,0 +1,358 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 60px;
+
+}
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 900px;
+  background-color:hsl(226, 35%, 93%);
+  flex-wrap: wrap;
+  padding-bottom: 200px;
+
+  
+}
+ .main .first-row{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-top: 30px;
+    
+  
+  }
+  .first-row img{
+    border-radius: 50px;
+    
+  }
+
+  section{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 350px;
+    background-color: hsl(263, 55%, 52%);
+    margin: 20px;
+    border-radius: 1.5em;
+
+  
+  }
+  .first-row1{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-top: 20px;
+    
+  
+  }
+
+
+  .first-row img{
+    border-radius: 50px;
+    
+  }
+
+  .col-div{
+    margin-left: 20px;
+  }
+  
+  .col-div h2 ,h3{
+   color: white;
+
+  }
+  .col-div h2 {
+ margin-bottom: 10px;
+   
+  }
+  .first-row1 .para p{
+    margin-bottom: 40px;
+    color: white;
+  }
+
+  /* second row here */
+
+  article{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    height: 350px;
+    background-color:hsl(217, 19%, 35%);
+    margin: 20px;
+    border-radius: 1.5em;
+    justify-content: center;
+    margin-right: 30px;
+
+  
+  }
+  .main2 .first-row2{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+
+  .first-row2 img{
+    border-radius: 30px;
+  }
+
+  .first-row2{
+    display: flex;
+    flex-direction: row;
+  }
+  .col-div2 {
+    margin-left: 10px;
+  }
+  .main2 .para2 p3, p4{
+  /* padding-left: 20px; */
+  text-align: center;
+  }
+  .para2 p3{
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 30px ;
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  .col-div2 h2, h3{
+    color: white;
+  }
+
+  .second-row2 .para2 p4{
+    /* margin-top: 20px; */
+    color: white;
+  
+  }
+  .main1 .first-row1{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-top: 10px;
+    
+  }
+
+  .second-row2{
+    padding: 30px;
+  }
+
+  /* end of second code here */
+
+  /* third line beginning here */
+  header{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    /* height: 300px; */
+    background-color:hsl(0, 0%, 100%);
+    margin: 20px;
+    border-radius: 1.5em;
+    justify-content: center;
+    color: hsl(217, 19%, 35%);
+  
+  }
+  .main3 .first-row3{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    /* padding-top: 30px; */
+    
+  
+  }
+  .col-div3{
+    margin-left: 20px;
+  }
+  .col-div3 img{
+   border-radius: 30px;
+  }
+  .third-row3{
+      display: flex;
+      flex-direction: row;
+      padding-left: 30px;
+      padding-top: 30px;
+      
+  }
+
+  .para3 .p-text{
+    font-size: 13px;
+    margin: 10px;
+  }
+
+  .third-row3 img{
+    border-radius: 50px;
+  }
+  .col-div3 h3{
+    color: black;
+  }
+
+  .third-row3{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+   
+    
+  
+  }
+
+  .fourth-artice{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    height: 350px;
+    background-color: hsl(0, 0%, 100%);
+    margin: 20px;
+    border-radius: 1.5em;
+    justify-content: center;
+
+  }
+  .main4 .first-row4{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-top: 30px;
+  
+  }
+  .four-row4 img{
+    border-radius: 50px;  
+  }
+  .four-row4{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    /* padding-top: 30px; */
+  
+  }
+
+  .four-row4 .logo-fourth img{
+    border-radius: 50px; 
+  }
+  .first-row4 .logo-fourth img{
+    border-radius: 50px;
+  }
+
+  .col-div4{
+    margin-left: 20px;
+  }
+  
+  /* .col-div4 h2 ,h3{
+   color: white;
+
+  } */
+  .col-div4 h2 {
+ margin-bottom: 10px;
+   
+  }
+  .four-row4 .para4 p{
+    margin-bottom: 40px;
+    /* color: white; */
+  }
+  
+/* end of four line code here */
+
+.main .first-row{
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+  padding-top: 30px;
+  
+
+}
+.first-row img{
+  border-radius: 50px;
+  
+}
+
+banner{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  height: 350px;
+  background-color: hsl(219, 29%, 14%);
+  margin: 20px;
+  border-radius: 1.5em;
+  margin-bottom: 0px;
+  justify-content: center;
+
+
+}
+.five-row{
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+  padding-top: 30px;
+  
+
+}
+
+
+.five-row img{
+  border-radius: 50px;
+  
+}
+
+.col-div5{
+  margin-left: 20px;
+}
+
+.col-div5 h2 ,h3{
+ color: white;
+
+}
+.col-div5 h2 {
+margin-bottom: 10px;
+ 
+}
+.five-row .para5 p{
+  margin-bottom: 40px;
+  color: white;
+  text-align: center;
+  padding-left: 0px;
+  margin-left: -30px;
+  
+ 
+  
+}
+
+  @media screen and (max-width: 1024px) {
+    .wrapper{
+      flex-direction: column;
+      background-color: gold;
+      width: 100%;
+      text-align: center;
+      padding-right: 30px;
+    
+    
+    }
+    section, article, header, .fourth-artice, banner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 22px;
+    font-size: 13px;
+
+   }
+
+    section .first-row1 .para p1 p2{
+    text-align:center;
+    fon
+   
+  
+
+   }
+
+   section h2, h3{
+ margin-bottom: 0px;
+   } */
+
+
+                  
+  }
